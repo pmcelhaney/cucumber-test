@@ -3,7 +3,7 @@
 This is my attempt to get CucumberJS running on Node v4.1.2
 
 When I install Cucumber (`npm install --save-dev cucumber`) and try to run it against example code
-from the README(https://github.com/cucumber/cucumber-js/blob/018d8702d2182796c1d1c27e7a381f97b5b5e166/README.md), I get the following result:
+from the [README](https://github.com/cucumber/cucumber-js/blob/018d8702d2182796c1d1c27e7a381f97b5b5e166/README.md), I get the following result:
 
 
 ```
