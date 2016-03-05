@@ -1,9 +1,16 @@
-var zombie = require('zombie');
+var webdriver = require('selenium-webdriver'),
+    By = require('selenium-webdriver').By,
+    until = require('selenium-webdriver').until;
+
+
 function World() {
-  this.browser = new zombie(); // this.browser will be available in step definitions
+
+  this.browser = new webdriver.Builder()
+      .forBrowser('firefox')
+      .build();
 
   this.visit = function (url, callback) {
-    this.browser.visit(url, callback);
+    this.browser.get(url).then(callback);
   };
 }
 
