@@ -9,6 +9,7 @@
   "author": "Patrick McElhaney",
   "license": "ISC",
   "devDependencies": {
-    "cucumber": "^0.9.5"
+    "cucumber": "^0.9.5",
+    "zombie": "^4.2.1"
   }
 }
