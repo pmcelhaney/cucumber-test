@@ -1,0 +1,14 @@
+{
+  "name": "cucumber-test",
+  "version": "1.0.0",
+  "description": "trying to get CucumberJS to work",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Patrick McElhaney",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^0.9.5"
+  }
+}
